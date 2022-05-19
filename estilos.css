@@ -68,6 +68,11 @@ main h2{
 
 /* ----- SOBRE MI ----- */
 
+.row img{
+    border-radius: 50% !important;
+    width: 200px !important;
+}
+
 main .sobre-mi{
     display: flex;
     overflow: hidden; /*para que el contenido no "desborde" de la caja */
@@ -78,7 +83,7 @@ main .sobre-mi img{
     margin: 0 50px 50px 30px;
     width: 400px;
     height: 500px;
-    border-radius: 50%; /* redondear la imagen */
+    border-radius: 50% ; /* redondear la imagen */
 
 }
 
