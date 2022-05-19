@@ -68,10 +68,7 @@ main h2{
 
 /* ----- SOBRE MI ----- */
 
-.row img{
-    border-radius: 50% !important;
-    width: 200px !important;
-}
+
 
 main .sobre-mi{
     display: flex;
@@ -97,6 +94,26 @@ main .sobre-mi p{
 
 
 /* ----- DESTINOS ----- */
+.row li{
+    list-style-type: none;
+    text-align: center;
+    
+}
+.row a{
+    text-decoration: none;
+    color: black;
+    
+    
+}
+.card{
+    border: none;
+}
+.card img{
+    border: solid 1px ;
+    padding: 5px;
+    height: 600px;
+}
+
 
 .destinos{
     display: grid;
