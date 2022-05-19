@@ -33,12 +33,10 @@ p{
 
  /* -----  MENU  ---- */ 
 
- nav{
-     
-     text-align: center;
-     background-color: rgba(151, 216, 172, .5);
-
- }
+.navbar{
+    
+    background-color: rgba(151, 216, 172, .5) !important;
+}
 
  nav ul {  
      display: flex;
