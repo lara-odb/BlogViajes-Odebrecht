@@ -69,28 +69,18 @@ main h2{
 /* ----- SOBRE MI ----- */
 
 
+.flex-shrink-0 img{
 
-main .sobre-mi{
-    display: flex;
-    overflow: hidden; /*para que el contenido no "desborde" de la caja */
-}
-
-main .sobre-mi img{
-    
-    margin: 0 50px 50px 30px;
-    width: 400px;
-    height: 500px;
-    border-radius: 50% ; /* redondear la imagen */
+    margin-left: 50px !important;
+    border-radius: 50% !important;
+    width: 80% !important;
 
 }
-
-main .sobre-mi p{
-    font-family: 'MP PLUS 1p', sans-serif;
-    line-height: 2.5;
-    width: 100%;
-    margin-top: 60px;
+.flex-grow-1 p{
+    overflow: hidden !important;
     text-align: justify;
- }
+}
+
 
 
 /* ----- DESTINOS ----- */
